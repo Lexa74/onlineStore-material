@@ -1,5 +1,5 @@
 // ------ Функция пересчёта и отображения ------
-export function updateCartUI() {
+function updateCartUI() {
     // Находим все элементы корзины на странице
     const items = document.querySelectorAll('.cart-item');
     let total = 0;
