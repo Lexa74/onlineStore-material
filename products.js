@@ -191,3 +191,51 @@ const catalog = [
         "__v": 0
     }
 ]
+
+const checkoutProducts = [
+    {
+        "_id": "6a60a755eb25b4b1844ae73d",
+        "name": "Кресло VILORA",
+        "description": "Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань.",
+        "price": 21000,
+        "oldPrice": 28000,
+        "image": "https://i.postimg.cc/tJqQmbXr/Rectangle-22-2.jpg",
+        "colors": [
+            "Синий",
+            "Салатовый",
+            "Желтый",
+            "Лавандовый"
+        ],
+        "roomTypes": [
+            "Кухня и столовая",
+            "Гостиная"
+        ],
+        "deliveryDays": 9,
+        "popularity": 515,
+        "createdAt": "2026-07-17T13:20:59.682Z",
+        "isSpecial": true,
+        "__v": 0,
+        "quantity": 1
+    },
+    {
+        "_id": "6a60a755eb25b4b1844ae73e",
+        "name": "Стол MENU",
+        "description": "Европейский дуб - отличается особой прочностью и стабильностью.",
+        "price": 34000,
+        "oldPrice": 45000,
+        "image": "https://i.postimg.cc/j2x0kTsX/Rectangle-24-2.jpg",
+        "colors": [
+            "Желтый",
+            "Салатовый"
+        ],
+        "roomTypes": [
+            "Детская комната"
+        ],
+        "deliveryDays": 7,
+        "popularity": 877,
+        "createdAt": "2026-07-18T17:21:03.866Z",
+        "isSpecial": true,
+        "__v": 0,
+        "quantity": 1
+    }
+]
